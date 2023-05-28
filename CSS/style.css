@@ -1,0 +1,176 @@
+/* Importing the 'Poppins' font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+/* Styling for the body element */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Poppins", sans-serif; /* Setting the font family */
+  margin: 0px; /* Removing default margin */
+  height: 100vh; /* Setting the height to 100% of the viewport height */
+  background-color: #eeeff1; /* Setting the background color */
+}
+
+/* Styling for the navigation bar */
+.navBar {
+  display: flex; /* Displaying the children in a row */
+  text-align: center; /* Center-aligning the text */
+  justify-content: space-between; /* Distributing the content with equal space between */
+  padding: 30px; /* Adding padding */
+  align-items: center; /* Aligning items along the vertical axis */
+  width: 100%; /* Setting the width to 100% of the parent element */
+  position: fixed; /* Fixing the position */
+  top: 0; /* Positioning it at the top */
+  margin: 0px; /* Removing default margin */
+}
+
+/* Styling for the first block in the navigation bar */
+.block1 {
+  display: flex; /* Displaying the children in a row */
+}
+
+/* Styling for the letter 'F' image */
+.letterF {
+  width: 40px; /* Setting the width */
+  height: 40px; /* Setting the height */
+  display: inline; /* Displaying it inline */
+  margin-right: 5px; /* Adding right margin */
+}
+
+/* Styling for the name element */
+.name {
+  font-size: 30px; /* Setting the font size */
+  margin: 0px; /* Removing default margin */
+  align-items: center; /* Aligning items along the vertical axis */
+}
+
+/* Styling for the info section */
+.info {
+  margin-right: 50px; /* Adding right margin */
+  float: left; /* Floating it to the left */
+}
+
+/* Styling for the links in the info section */
+.info a {
+  text-decoration: none; /* Removing underline */
+  padding: 10px; /* Adding padding */
+  border-radius: 5px; /* Adding border radius */
+  margin-right: 20px; /* Adding right margin */
+}
+
+/* Styling for the first section */
+.sectionOne {
+  display: flex; /* Displaying the children in a row */
+  margin-top: 10%; /* Adding top margin */
+  padding-left: 50px; /* Adding left padding */
+  justify-content: center; /* Center-aligning the content */
+}
+
+/* Styling for the photo div */
+.photo {
+  width: 467px; /* Setting the width */
+  height: 489px; /* Setting the height */
+}
+
+/* Styling for the introduction div */
+.introduction {
+  padding: 3em; /* Adding padding */
+}
+
+/* Styling for the introduction heading */
+.introduction h1 {
+  font-size: 80px; /* Setting the font size */
+  margin: 50px 0px; /* Adding top and bottom margin */
+}
+
+/* Styling for the introduction text */
+.intro-text {
+  font-size: 25px; /* Setting the font size */
+  font-weight: 300; /* Setting the font weight */
+  line-height: 39px; /* Setting the line height */
+}
+.sectionTwo {
+  display: flex; /* Displaying the children in a row */
+  margin-top: 10%; /* Adding top margin */
+  padding-left: 50px; /* Adding left padding */
+  justify-content: center; /* Center-aligning the content */
+}
+.info-2 {
+  width: 50%;
+  padding: 30px;
+}
+.skills {
+  width: 30%;
+  padding: 50px;
+  padding-top: 170px;
+}
+.skillBlock {
+  display: inline-table;
+  margin: 5px;
+  padding: 7px;
+  border: 1px solid rgb(156, 136, 136);
+  border-radius: 5px;
+}
+.heading-2 {
+  font-size: 44px;
+  font-weight: 500;
+}
+.carrier-info {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 300;
+}
+.sectionThree {
+  display: flex; /* Displaying the children in a row */
+  margin-top: 1%; /* Adding top margin */
+  padding: 50px;
+  justify-content: center;
+}
+.ed {
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 40%;
+  box-shadow: 5px 10px 20px palevioletred;
+}
+.ed-wrap {
+  display: flex;
+}
+.logo {
+  display: inline;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+.col-name {
+  margin: 5px;
+  margin-bottom: 0px;
+}
+.certifications {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.certificate-info {
+  border: 2px solid black;
+  margin: 10px;
+  padding: 20px;
+  /* line-height: 5px; */
+  border-radius: 30px;
+  width: 400px;
+  box-shadow: 10px 0px 10px yellow;
+}
+.certificate-info :only-child {
+  text-decoration: none;
+  color: rgb(73, 67, 67);
+}
+.classes {
+  display: flex;
+  margin: 10px;
+}
